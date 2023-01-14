@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+ }
+ 
+
+ .text-primary{
+    color:#ff5200
+ }
+
+
+ 
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding:51px 200px;
+   
+ }
+ 
+ .nav_title{
+    font-weight: 800;
+    font-size: 30px;
+    color: #ffffff;
+
+ }
+ /*
+ nav ul{
+ display:flex; 
+ margin-left: 50px;
+ align-items: center;
+ color: #ffffff;
+ }
+ nav ul li{
+    list-style: none;
+    margin-left:20px;
+    
+ }
+  */
