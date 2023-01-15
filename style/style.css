@@ -1,85 +1,85 @@
 *{
-    margin: 0px;
-    font-family: 'Open Sans', sans-serif;
- }
- /* */
- main{
-    max-width: 1040px;
-    margin: 0 auto;
- }
+   margin: 0px;
+   font-family: 'Open Sans', sans-serif;
+}
+/* */
+main{
+   max-width: 1040px;
+   margin: 0 auto;
+}
 
- .text-primary{
-    color:#ff5200
- }
- .btn-primary{
-    background-color: #FF900E;
-    color:#ffffff;
-    border-radius: 6px;
-    height:60px;
-    font-size: 20px;
-    font-weight: 700;
-    border:none;
-    padding: 18px 30px;
- 
- }
+.text-primary{
+   color:#ff5200
+}
+.btn-primary{
+   background-color: #FF900E;
+   color:#ffffff;
+   border-radius: 6px;
+   height:60px;
+   font-size: 20px;
+   font-weight: 700;
+   border:none;
+   padding: 18px 30px;
 
- /* -----------------
- header section start
- -------------- */
- header{
-    /* position: absolute; */
+}
+
+/* -----------------
+header section start
+-------------- */
+header{
+   /* position: absolute; */
 left: 0px;
 top: 0px;
 background:#FF900E1A;
 padding-bottom: 35px;
 
 
- }
+}
 
- 
- 
+
+
 nav{
-    display:flex;
-    justify-content: space-between;
-    padding:51px 200px;
+   display:flex;
+   justify-content: space-between;
+   padding:51px 200px;
+  
+}
+
+.nav_title{
+   font-weight: 800;
+   font-size: 30px;
+   color: black;
+
+}
+
+nav ul{
+display:flex; 
+margin-left: 50px;
+align-items: center;
+color: black;
+}
+nav ul li{
+   list-style: none;
+   margin-left:20px;
    
- }
- 
- .nav_title{
-    font-weight: 800;
-    font-size: 30px;
-    color: black;
-
- }
-
- nav ul{
- display:flex; 
- margin-left: 50px;
- align-items: center;
- color: black;
- }
- nav ul li{
-    list-style: none;
-    margin-left:20px;
-    
- }
- .heder-title-description{
-    text-align: center;
- } 
- .header-title{
-    font-family: Work Sans;
-  font-size: 64px;
+}
+.heder-title-description{
+   text-align: center;
+} 
+.header-title{
+   font-family: Work Sans;
+ font-size: 64px;
 font-weight: 700;
 line-height: 75px;
 letter-spacing: 0em;
 text-align: center;
 width:539px;
 margin:auto;
-  margin-bottom:20px
- 
- }
+ margin-bottom:20px
+
+}
 .header-description{
-    font-family: Work Sans;
+   font-family: Work Sans;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
@@ -87,88 +87,287 @@ letter-spacing: 0em;
 text-align: center;
 width:539px;
 margin: auto;
- margin-bottom:30px
+margin-bottom:30px
 
- }
- .header-img{
-    width:1040px;
-    margin:auto;
-   margin-top:30px;
-  margin-bottom:45px;
+}
+.header-img{
+   width:1040px;
+   margin:auto;
+  margin-top:30px;
+ margin-bottom:45px;
 
- }
- .header-img img{
-    width:100%;
-    
- }
- /* -----------------
- header section end
- -*------------- */
-
- /* ----------------- main  section end  */
-
-   /*  ----------------------
-   Quick list of Our Features  start 
-   --------------------*/
-   .features{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    margin-top:85px
-
-   }
-   .feature{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+}
+.header-img img{
+   width:100%;
    
-   }
-   .feature-img{
-    width: 300px;
-    height: 300px;
-    
-   }
-   .feature-img img{
-    width: 100%;
-   }
-   .feature-title-and-description{
-    margin-top: 200px;
-    margin-left:73px ;
-   }
-.feature-title{
- font-size:40px
 }
-.f-t-spen1{
-    color:#727272;
+/* -----------------
+header section end
+-*------------- */
+
+/* ----------------- main  section end  */
+
+  /*  ----------------------
+  Quick list of Our Features  start 
+  --------------------*/
+  .quicks{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 10px;
+   margin-top:85px
+
+  }
+  .quick{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 24px;
+  
+  }
+  .quick-img{
+   width: 300px;
+   height: 300px;
+   
+  }
+  .quick-img img{
+   width: 100%;
+  }
+  .quick-title-and-description{
+   margin-top: 200px;
+   margin-left:73px ;
+  }
+.quick-title{
+font-size:40px
 }
-.f-t-spen3{
-    color:#FF900E;
+.q-t-spen1{
+   color:#727272;
+}
+.q-t-spen3{
+   color:#FF900E;
+}
+.quick-description{
+color:#727272;
+   font-size: 16px;
+   line-height: 26px;
+   margin-bottom: 32px;
+   margin-top: 24px;
+}
+
+
+/* -----------------main section end */
+
+
+
+
+
+
+/*--------------------------------------------
+          media Qury
+----------------------------------------- */
+/* --------------------------
+ features
+---------------------------------- */
+.features{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:64px ;
+  margin-top:50px;
+  
+}
+.feature img{
+width:100%;
+ 
+}
+.feature-titel{
+border-left:3px solid #ff5200;
+padding-left:10px;
+ font-size:45px;
+ line-height: 40px;
 }
 .feature-description{
+margin-top:20px;
+margin-bottom:40px;
+color:#727272
+}
+
+.featur-info-singl-box{
+  margin-left:30px;
+
+ margin-bottom:10px;
+ padding:5px;
+  box-shadow: 0px 0px 1px 0px #727272;
+}
+.feature-info-title{
+ margin-top:5px;
+ margin-bottom:15px;
+ 
+}
+.feature-info-description{
+ font-size:15px;;
  color:#727272;
-    font-size: 16px;
-    line-height: 26px;
-    margin-bottom: 32px;
-    margin-top: 24px;
+ 
+}
+.feature-btn{
+ background:#FF900E;
+ width:200px;
+ position:relative;
+ padding:30px;
+ height: 100px;
+ padding-top: 50px;
+ color:wheat;
+}
+.feature-btn{
+   color:white;
+   font-weight: bold;
+   font-size: 29px;
+   text-align: center;
+   line-height: 40px;
+ margin-left:-30px;
+ margin-top:-70px;
+
+}
+.f-btn-dec{
+ font-size:20px
+}
+/* ---------------------------------
+        Some Facts section
+-------------------------------------- */
+.someFacts-title{
+   font-family: 'Work Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 53px;
+  
+}
+.someFacts-info{
+   width: 542px;
+   margin-top:120px;
+
+}
+.someFacts-description{
+
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+}
+.someFacts-singles-boxs{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap:50px;
+   margin:100px;
+   
+}
+.someFacts-single-box{
+   border: 1px solid #FF900E;
+   border-radius: 8px;
+   text-align:center;
+   padding:30px 20px;
+   transition: 1s;
+
+
+}
+.someFacts-single-box-title{
+   font-size:30px
+}
+.someFacts-single-box-title{
+ font-size:35px;
+ margin-top:10px;
+ margin-bottom:5px;
+
+}
+.someFacts-single-box-description{
+   font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+}
+.someFacts-single-box:hover{
+  
+   cursor: pointer;
+   transform: scale(0.9,0.9);
+   
+}
+/* ---------------------------------
+     Our Sponspors  style
+---------------------------------*/
+.ourSponspors{
+   text-align: center;
+ width: 542px;
+ margin:auto;
+ margin-bottom:20px
+}
+
+.ourSponspors-img-box{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   gap:50px;
+   align-content: space-around;
+   margin:50px 0px;
+   transition: 1s;
+ 
+}
+.ourSponspors-img-box:hover{
+   cursor: pointer;
+   
+}
+/*  */
+
+
+/* ---------------------------
+All rights reserved copyright@2023 startup landing page design
+--------------------------------- */
+
+.allRightsCopyright{
+   background-color:#FF900E1A;
+   text-align: center;
+   border-radius: 10px;
+   padding: 15px;
+   margin-bottom: 100px;
+}
+.allRightsCopyright p{
+   font-weight: 800;
+
+
 }
 
 
- /* -----------------main section end */
- 
- /*--------------------------------------------
-           media Qury
- ----------------------------------------- */
 
- @media screen and (max-width:576px) {
+@media only screen and (max-width:576px) {
+  .quicks{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     gap: 10px;
+     margin-right: 20px;
+     
+ 
+    }
     .features{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-       }
-       .feature{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+      grid-template-columns: repeat(1, 1fr);
+      gap:64px ;
       
+      
+    }
+      .quick{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+        
        
        }
-    
+       .someFacts-singles-boxs{
+         
+         grid-template-columns: repeat(1, 1fr);
+         margin:100px;
+      }
+      .ourSponspors-img-box{
+        
+         grid-template-columns: repeat(1, 1fr);
+         margin:50px 0px;
+      }
+   
 }
+
+
+
+
